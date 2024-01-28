@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #333;
+}
+
+.navigation {
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+}
+
+.classes-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.class-title {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+}
+
+.class-title {
+    font-size: 1rem;
+    color: #f5f5f5;
+}
+
+.settings {
+    font-size: 2rem;
+}
+
+.class {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class-sigle {
+    text-decoration: none;
+    font-weight: bold;
+}
